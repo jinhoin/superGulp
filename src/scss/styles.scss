@@ -1,0 +1,29 @@
+@import "_reset";
+@import "_varibles";
+
+body {
+  background-color: $red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 30px;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;;
+}
+
+img {
+  width: 100px;
+}
+
+footer {
+  display: none;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: 10px;
+}
